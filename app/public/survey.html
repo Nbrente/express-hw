@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Survey</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
+  <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+  <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+
+</head>
+
+<body>
+  <h1>Survey Questions</h1>
+  <hr>
+  <h2>
+    <b>About You</b>
+  </h2>
+  <form action="/api/friends" method="post">
+    <label for="name">
+      <p>
+        <b>Name (Required)</b>
+      </p>
+    </label>
+    <input type="text" name="name" id="">
+    <br>
+    <label for="photo">
+      <p>
+        <b>Link to Photo Image (Required)</b>
+      </p>
+    </label>
+    <input type="url" name="photo" id="">
+    <hr>
+    <label for="q1">
+      <p>
+        <b>Question 1</b>
+      </p>
+      <p>Your mind is always buzzing with unexplored ideas and plans.</p>
+    </label>
+    <select name="q1" id="">
+      <option value="1">1 (Strongly Disagree)</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5 (Strongly Agree)</option>
+    </select>
+    <label for="q2">
+      <p>
+        <b>Question 2</b>
+      </p>
+      <p>Generally speaking, you rely more on your experience than your imagination.</p>
+    </label>
+    <select name="q2" id="">
+      <option value="1">1 (Strongly Disagree)</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5 (Strongly Agree)</option>
+    </select>
+    <label for="q3">
+      <p>
+        <b>Question 3</b>
+      </p>
+      <p>You find it easy to stay relaxed and focused even when there is some pressure.</p>
+    </label>
+    <select name="q3" id="">
+      <option value="1">1 (Strongly Disagree)</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5 (Strongly Agree)</option>
+    </select>
+    <label for="q4">
+      <p>
+        <b>Question 4</b>
+      </p>
+      <p>You rarely do something just out of sheer curiosity.</p>
+    </label>
+    <select name="q4" id="">
+      <option value="1">1 (Strongly Disagree)</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5 (Strongly Agree)</option>
+    </select>
+    <label for="q5">
+      <p>
+        <b>Question 5</b>
+      </p>
+      <p>People can rarely upset you.</p>
+    </label>
+    <select name="q5" id="">
+      <option value="1">1 (Strongly Disagree)</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5 (Strongly Agree)</option>
+    </select>
+    <label for="q6">
+      <p>
+        <b>Question 6</b>
+      </p>
+      <p>It is often difficult for you to relate to other people’s feelings.</p>
+    </label>
+    <select name="q6" id="">
+      <option value="1">1 (Strongly Disagree)</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5 (Strongly Agree)</option>
+    </select>
+    <label for="q7">
+      <p>
+        <b>Question 7</b>
+      </p>
+      <p>In a discussion, truth should be more important than people’s sensitivities.</p>
+    </label>
+    <select name="q7" id="">
+      <option value="1">1 (Strongly Disagree)</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5 (Strongly Agree)</option>
+    </select>
+    <label for="q8">
+      <p>
+        <b>Question 8</b>
+      </p>
+      <p>You rarely get carried away by fantasies and ideas.</p>
+    </label>
+    <select name="q8" id="">
+      <option value="1">1 (Strongly Disagree)</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5 (Strongly Agree)</option>
+    </select>
+    <label for="q9">
+      <p>
+        <b>Question 9</b>
+      </p>
+      <p>You think that everyone’s views should be respected regardless of whether they are supported by facts or not.</p>
+    </label>
+    <select name="q9" id="">
+      <option value="1">1 (Strongly Disagree)</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5 (Strongly Agree)</option>
+    </select>
+    <label for="q10">
+      <p>
+        <b>Question 10</b>
+      </p>
+      <p>You feel more energetic after spending time with a group of people.</p>
+    </label>
+    <select name="q10" id="">
+      <option value="1">1 (Strongly Disagree)</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5 (Strongly Agree)</option>
+    </select>
+    <br>
+    <input id="submit" type="submit" value="Submit">
+    <hr>
+  </form>
+
+  <script>
+    on("click", function (e) {
+      e.preventDefault();
+      $(function () {
+        $("#dialog").dialog();
+      });
+    })
+  </script>
+
+  <div id="dialog" title="Basic dialog">
+    <p>Image:</p>
+    <img src="http://placehold.it/50x50" alt="Placeholder Image" />
+  </div>
+</body>
+
+
+</html>
